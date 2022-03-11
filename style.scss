@@ -4,6 +4,21 @@
   font-size: 48px;
   justify-content: center;
   margin: 0;
+
+  &--heading {
+  }
+
+  &--nav {
+    &--links {
+      display: flex;
+      justify-content: space-between;
+      &--item {
+        &--link {
+          color: red;
+        }
+      }
+    }
+  }
 }
 
 .first-box {
