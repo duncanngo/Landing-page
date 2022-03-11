@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  color: #f9faf8;
+  font-size: 48px;
+  justify-content: center;
+  margin: 0;
+}
+
+.first-box {
+  background-color: #1f2937;
+}
+
+.names {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  list-style: none;
+  align-items: flex-end;
+}
+
+.info {
+  color: #f9faf8;
+}
