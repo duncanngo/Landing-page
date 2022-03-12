@@ -11,10 +11,12 @@
   &--nav {
     &--links {
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
+
       &--item {
         &--link {
-          color: red;
+          color: green;
+          text-decoration: none;
         }
       }
     }
