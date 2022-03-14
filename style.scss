@@ -1,18 +1,25 @@
 .header {
-  display: flex;
-  color: #f9faf8;
-  font-size: 48px;
-  justify-content: center;
+  background-color: #1f2937;
   margin: 0;
 
   &--heading {
+    display: flex;
+    justify-content: center;
+    color: #f9faf8;
   }
-
+  .box-info {
+    color: #f9faf8;
+  }
   &--nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    position: absolute;
+    top: 0;
+
     &--links {
       display: flex;
-      justify-content: space-around;
-
+      justify-content: center;
       &--item {
         &--link {
           color: green;
@@ -21,6 +28,25 @@
       }
     }
   }
+}
+
+.box {
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+.text--info--button {
+  background-color: #3882f6;
+  color: white;
+  padding: 5px;
+
+  border-radius: 5px;
+}
+
+.porsche-logo {
+  width: 5vh;
+  height: 5vh;
+  display: flex;
 }
 
 .first-box {

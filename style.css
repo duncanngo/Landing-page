@@ -1,26 +1,66 @@
 .header {
+  background-color: #1f2937;
+  margin: 0;
+}
+
+.header--heading {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: #f9faf8;
-  font-size: 48px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 0;
+  color: #f9faf8;
+}
+
+.header .box-info {
+  color: #f9faf8;
+}
+
+.header--nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+  position: absolute;
+  top: 0;
 }
 
 .header--nav--links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .header--nav--links--item--link {
   color: green;
   text-decoration: none;
+}
+
+.box {
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+.text--info--button {
+  background-color: #3882f6;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.porsche-logo {
+  width: 5vh;
+  height: 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .first-box {
