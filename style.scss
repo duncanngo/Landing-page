@@ -2,6 +2,19 @@
   background-color: #1f2937;
   margin: 0;
 
+  .placeholder {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    width: 200px;
+    height: 200px;
+  }
+  .boxsterpic {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    margin-right: 100px;
+  }
   &--heading {
     display: flex;
     justify-content: center;
@@ -9,6 +22,8 @@
   }
   .box-info {
     color: #f9faf8;
+    display: flex;
+    justify-content: flex-start;
   }
   &--nav {
     display: flex;
@@ -33,6 +48,11 @@
 .box {
   font-weight: bold;
   color: #f9faf8;
+  display: flex;
+  justify-content: flex-start;
+  height: auto;
+  margin: 0;
+  max-width: 150px;
 }
 
 .text--info--button {
