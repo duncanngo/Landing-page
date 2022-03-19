@@ -1,3 +1,130 @@
+<<<<<<< HEAD
+.header {
+  background-color: #1f2937;
+  margin: 0;
+  color: #f9faf8;
+}
+
+.boxsterpic {
+  display: flex;
+  justify-content: center;
+  margin-right: 100px;
+}
+heading {
+  display: flex;
+  justify-content: center;
+  color: #f9faf8;
+}
+
+.link {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.underbox {
+  display: flex;
+  justify-content: space-around;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.underboxbox {
+  display: flex;
+  justify-content: space-around;
+}
+
+.text--info--button {
+  background-color: #3882f6;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.porsche-logo {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+}
+
+.names {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  list-style: none;
+  align-items: flex-end;
+}
+
+.info {
+  color: #f9faf8;
+}
+
+.cars {
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+  font-size: 36px;
+}
+
+.quotebox {
+  background-color: #e5e7eb;
+}
+.quote {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+}
+
+.quote-tom {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  color: #1f2937;
+}
+
+.calltime {
+  display: flex;
+  background-color: #3882f6;
+  margin: 100px 400px;
+  border-radius: 20px;
+  padding: 25px;
+  color: #f9faf8;
+  flex-direction: column;
+  border: 3px solid rgba(0, 0, 0, 0.2);
+}
+
+.sign-up {
+  display: flex;
+  align-self: center;
+  background-color: #3882f6;
+  color: white;
+  padding: -5px;
+  border-radius: 8px;
+}
+
+.click {
+  display: flex;
+  font-size: small;
+
+  align-self: flex-start;
+  color: #f9faf8;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+}
+=======
 .header {
   background-color: #1f2937;
   margin: 0;
@@ -120,3 +247,4 @@ heading {
   display: flex;
   justify-content: center;
 }
+>>>>>>> 34aaadd9736bac89113184e4f3e1aa007d26ff1b
